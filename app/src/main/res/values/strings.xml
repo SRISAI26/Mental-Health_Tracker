@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mood tracker</string>
+    <string name="quote">your way to keep a record of your mood at  regular intervals. The purpose of this is to help look for patterns in how moods vary over time  and due to different situations and circumstances</string>
+    <string name="enter_your_">Enter your age?</string>
+    <string name="select_your">Select your gender</string>
+    <string name="how_often_d">How often do u feel work interference?</string>
+    <string name="often">Often</string>
+    <string name="never">Never</string>
+    <string name="sometimes">sometimes</string>
+    <string name="next">NEXT</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="mood_tracker">Mood Tracker</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="lets_start">Lets Start</string>
+    <string name="do_u_have_any_care_options">Do u have any care options?</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+    <string name="don_t_know">Don\'t know</string>
+    <string name="do_you_prefer_to_seek_help">Do you prefer to seek help?</string>
+    <string name="do_you_know_about_your_mental_health_consequences">Do you know about your mental health consequences?</string>
+    <string name="do_u_know_your_mental_health_consequences">Do u know your mental health consequences?</string>
+    <string name="today_s_goals">Today\'s Goals</string>
+    <string name="fin">FINISH</string>
+    <string name="message">This has been your first entry.Now lets make some history!!!</string>
+    <string name="mood">Mood Tracker</string>
+    <string name="fast_food">fast food</string>
+    <string name="homemade">Homemade</string>
+    <string name="drink_water">drink water</string>
+    <string name="today_may_15">TODAY, MAY 15</string>
+    <string name="meh_9_31am">Meh 9:31AM</string>
+    <string name="family">Family</string>
+    <string name="movies_and_tv">movies and tv</string>
+    <string name="bad_sleep">Bad sleep</string>
+    <string name="cleaning">cleaning</string>
+    <string name="meditation">meditation</string>
+    <string name="do_you_attend_any_wellness_program">Do you attend any wellness program ?</string>
+
+
+</resources>

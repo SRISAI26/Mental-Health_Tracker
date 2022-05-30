@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".two">
+
+    <RelativeLayout
+        android:id="@+id/Page_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D8CAFF"
+        android:clipToOutline="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteY="-73dp"
+        tools:targetApi="s"><![CDATA[>
+
+
+
+
+
+
+
+
+
+
+
+        ]]>
+
+        <TextView
+            android:id="@+id/enter_your_"
+            android:layout_width="234dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="184dp"
+            android:text="@string/enter_your_"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="229dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="235dp"
+            android:background="#84BDF1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/select_your"
+            android:layout_width="278dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="329dp"
+            android:gravity="top"
+            android:text="@string/select_your"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/gender1"
+            android:layout_width="100dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="385dp"
+            android:background="#959CF6"
+            android:text="@string/male"
+            android:textColor="#FFFFFF"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/gender2"
+            android:layout_width="100dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="198dp"
+            android:layout_marginTop="385dp"
+            android:background="#FFD2F0"
+            android:text="@string/female"
+            android:textColor="#FFFFFF"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/mood" />
+
+        <Button
+            android:id="@+id/page7"
+            android:layout_width="229dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="534dp"
+            android:layout_marginEnd="90dp"
+            android:background="#26238C"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

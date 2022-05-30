@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/Page_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D8CAFF"
+        android:clipToOutline="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-16dp"
+        tools:targetApi="s">
+
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="278dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal|top"
+            android:text="@string/quote"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#2c4271"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mood_tracke"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="202dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/mood_tracker"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#2C4271" />
+
+        <TextView
+            android:id="@+id/welcome_to"
+            android:layout_width="176dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="202dp"
+            android:fontFamily="sans-serif"
+            android:foregroundGravity="center"
+            android:text="@string/welcome_to"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/page7"
+            android:layout_width="229dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="404dp"
+            android:background="#26238C"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/lets_start"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="117dp"
+            android:layout_below="@+id/welcome_to"
+            android:layout_alignStart="@+id/quote"
+            android:layout_alignEnd="@+id/welcome_to"
+            android:layout_alignBottom="@+id/quote"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="-178dp"
+            android:layout_marginEnd="-64dp"
+            android:layout_marginBottom="188dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/page_1"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
